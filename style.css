@@ -1,7 +1,9 @@
 @font-face {
-    font-family: sunday;
-    src: url(/fonts/sunday_walk/Sunday\ Walk.otf);
+    font-family: ephesis;
+    src: url(fonts/Ephesis/Ephesis-Regular.ttf);
 }
+
+
 
 html {
     background-color: rgb(255, 255, 255);
@@ -14,6 +16,13 @@ html {
   padding: 40px;
   font-family: sans-serif;
   text-align: center;
+}
+
+.nome {
+    font-size: 45px;
+    color: rgb(77, 0, 128);
+    text-align: center;
+    font-family: ephesis;
 }
 
 .terra,
@@ -85,4 +94,12 @@ html {
 
 .final > .voce {
     color: red;
+}
+
+.texto {
+    margin: 150px auto 0 auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 600px;
+    font-size: 15px;
 }
